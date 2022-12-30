@@ -280,6 +280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "SortingVIsualizations/SortingVIsualizations-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -290,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "SortingVIsualizations/SortingVIsualizations-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
